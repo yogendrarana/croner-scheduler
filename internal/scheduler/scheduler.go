@@ -6,7 +6,7 @@ import (
 )
 
 func Run(cfg *config.Config) error {
-	log.Println("Starting scheduler...wait")
+	log.Println("Starting scheduler...waiting for tasks to execute")
 
 	return nil
 }
